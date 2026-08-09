@@ -1,2 +1,4 @@
 *.zip
 .thumbnail
+.wrangler/
+node_modules/
