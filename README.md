@@ -140,6 +140,24 @@ The samples section holds 10 clips but loads none of them up front:
 - clicking a row swaps `src`/`poster` and the caption, then `load()`s
 - the play button reveals native controls on first play
 
+### Keep the bundle lean
+
+Fonts and images live **inside** `index.html` as base64 in the manifest, and the loader decodes *every* asset before it swaps the document. So manifest weight directly delays first paint — there is no progressive rendering to hide it.
+
+A single 768×1365 PNG portrait once accounted for 2.2MB of a 2.95MB file. Converting it to WebP and dropping one orphaned asset took the file to 0.70MB (-76%).
+
+Rules of thumb:
+
+- Never put a PNG in the manifest. WebP at quality ~82 is typically 10–15% of the size at display resolution.
+- After removing an element, check whether its asset is now orphaned: an asset appearing **once** in the whole file is a manifest key with no reference, and is dead weight.
+- Video, by contrast, is served as ordinary files in `build/` — never base64 it into the bundle.
+
+Audit with:
+
+```bash
+node -e "const h=require('fs').readFileSync('build/index.html','utf8');const t='<script type=\"__bundler/manifest\">';const i=h.indexOf(t)+t.length;const m=JSON.parse(h.slice(i,h.indexOf('<\/script>',i)));Object.entries(m).map(([k,v])=>[Math.round(v.data.length/1024),v.mime,k]).sort((a,b)=>b[0]-a[0]).slice(0,8).forEach(r=>console.log(r[0]+'KB',r[1],r[2].slice(0,8),h.split(r[2]).length-1===1?'DEAD':''))"
+```
+
 ### Media pipeline
 
 Clips are generated with HiggsField (`seedance_2_5`) and encoded locally:
