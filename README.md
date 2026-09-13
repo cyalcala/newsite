@@ -183,8 +183,26 @@ Generation prompts must state the cream-and-indigo palette explicitly for brand-
 ## Content rules
 
 - **No prices on the site.** Pricing is handled on the audit call.
-- **No fabricated social proof.** The testimonial row is framed as turning *real* customer feedback into polished video. Marketing AI-generated testimonials as genuine is deceptive advertising and unlawful in many jurisdictions.
-- Anything referenced by the template must actually exist in `build/` — a résumé link once shipped pointing at a file that was never copied there, and 404'd in production.
+- **No fabricated social proof.** The testimonial row is framed as turning *real* customer feedback into polished video, never as "real-looking" testimonials — marketing AI-generated testimonials as genuine is deceptive advertising and unlawful in many jurisdictions. Don't revert this wording.
+- **No invented stats, quotes, or client outcomes.** Every number on the site (years, claim counts, guide counts, percentages) is a fact Cyrus supplied. New copy can reframe or reorder facts; it cannot add new ones.
+- Anything referenced by the template must actually exist in `build/` — a résumé link once shipped pointing at a file that was never copied there, and 404'd in production. Same class of bug: `og:image` pointed at a file that was never copied into `build/assets/`, so Cloudflare's SPA fallback served `index.html` disguised as a 200 and every link share had a broken preview card.
+
+---
+
+## Voice & positioning
+
+The site's persuasive copy (2026-08-14 rewrite) is built to answer one question a prospect has before hiring a solo operator: *will this person disappear, overpromise, or lock me in?* Three devices carry that answer through the page — reuse them rather than inventing new ones:
+
+- **"Repeatable system"** — appears in the showreel, services, and samples sections. Consistency is something that can be shown as a system, not just claimed as a trait.
+- **Ownership / no lock-in** — the hero trust chips, "how it works" step 3, and the pilot banner all land on the same point: you keep everything, on your terms. ("Your call, not mine.")
+- **Money named directly** — "before a single dollar changes hands," "tell you exactly where AI pays for itself first." Vague ROI language reads as evasive; naming the money moment reads as confident.
+
+Style rules that came out of the rewrite:
+
+- Short, direct sentences. Fragments are fine for punch ("Insurance claims. Telecom escalations.").
+- Confident, not salesy — no exclamation points, no "amazing"/"revolutionary," no hedging qualifiers.
+- Every claim about Cyrus personally must be a fact he supplied or his own prior phrasing, never an invented credibility line.
+- The hero H1 (`I build AI systems for service businesses.`) is deliberately untouched — it anchors the `.hero-hl` highlighted-pill CSS treatment. Persuasion work belongs in the subheadline, not the H1.
 
 ---
 
