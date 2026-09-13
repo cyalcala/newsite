@@ -48,3 +48,7 @@ The complete pre-overhaul tracked repository is preserved in the pushed tag `bac
 For rollback, check that tag out in a separate directory and deploy its `build/` directory to the same Pages project. Avoid resetting an active working copy. The extraction and asset-finishing scripts document one-time migration steps; they are not part of the normal build.
 
 Design rules and verification limits are recorded in `docs/overhaul/design-system.md` and `docs/overhaul/qa-summary.md`.
+
+## Unified inquiries
+
+All outreach actions use the published Google Form configured in `src/contact.cjs`. Change that single URL/label, then rebuild to update every page. See `docs/unified-contact/README.md` for the form structure, owner workflow, backup and validation. Do not reintroduce separate mailto or calendar calls to action without an explicit change in the contact strategy.

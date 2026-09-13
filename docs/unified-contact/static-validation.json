@@ -1,0 +1,49 @@
+{
+  "date": "2026-09-13T04:32:40.988Z",
+  "pages": [
+    {
+      "path": "/",
+      "bytes": 9055
+    },
+    {
+      "path": "/work/",
+      "bytes": 7006
+    },
+    {
+      "path": "/services/",
+      "bytes": 8858
+    },
+    {
+      "path": "/about/",
+      "bytes": 6029
+    },
+    {
+      "path": "/hire/",
+      "bytes": 8203
+    },
+    {
+      "path": "/work/va-freelance-hub/",
+      "bytes": 7992
+    },
+    {
+      "path": "/work/techwriter-bot/",
+      "bytes": 8001
+    },
+    {
+      "path": "/work/cyrusalcala/",
+      "bytes": 7254
+    },
+    {
+      "path": "/work/video/",
+      "bytes": 9477
+    },
+    {
+      "path": "/404/",
+      "bytes": 3907
+    }
+  ],
+  "cssBytes": 22739,
+  "jsBytes": 914,
+  "originalBundleSHA256": "b5cb10c919f5de4bca4245549f5533aaeeddb7d1bb9a0c3390f7349240e42398",
+  "issues": []
+}

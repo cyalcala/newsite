@@ -1,0 +1,57 @@
+{
+  "date": "2026-09-13T04:33:53.334Z",
+  "destination": "https://docs.google.com/forms/d/e/1FAIpQLSenJuHOxItC77bmI8-NOXxlWSe9aqQRHDt6HlMerQXPgHKB8A/viewform",
+  "rows": [
+    {
+      "page": "/",
+      "contactLinks": 4,
+      "allUseUnifiedLabel": true
+    },
+    {
+      "page": "/work/",
+      "contactLinks": 3,
+      "allUseUnifiedLabel": true
+    },
+    {
+      "page": "/services/",
+      "contactLinks": 8,
+      "allUseUnifiedLabel": true
+    },
+    {
+      "page": "/about/",
+      "contactLinks": 3,
+      "allUseUnifiedLabel": true
+    },
+    {
+      "page": "/hire/",
+      "contactLinks": 5,
+      "allUseUnifiedLabel": true
+    },
+    {
+      "page": "/work/va-freelance-hub/",
+      "contactLinks": 3,
+      "allUseUnifiedLabel": true
+    },
+    {
+      "page": "/work/techwriter-bot/",
+      "contactLinks": 3,
+      "allUseUnifiedLabel": true
+    },
+    {
+      "page": "/work/cyrusalcala/",
+      "contactLinks": 4,
+      "allUseUnifiedLabel": true
+    },
+    {
+      "page": "/work/video/",
+      "contactLinks": 4,
+      "allUseUnifiedLabel": true
+    },
+    {
+      "page": "/404/",
+      "contactLinks": 3,
+      "allUseUnifiedLabel": true
+    }
+  ],
+  "cssAndJavaScriptUnchangedIgnoringLineEndings": true
+}
