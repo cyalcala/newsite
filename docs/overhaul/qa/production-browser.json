@@ -1,0 +1,31 @@
+{
+  "images": [
+    {
+      "complete": true,
+      "src": "https://cyrusalcala.com/assets/headshot-dark.webp",
+      "width": 768
+    },
+    {
+      "complete": true,
+      "src": "https://cyrusalcala.com/assets/projects/va-hub.webp",
+      "width": 1270
+    },
+    {
+      "complete": true,
+      "src": "https://cyrusalcala.com/assets/projects/techwriter.webp",
+      "width": 1280
+    },
+    {
+      "complete": true,
+      "src": "https://cyrusalcala.com/use-04.webp",
+      "width": 960
+    },
+    {
+      "complete": true,
+      "src": "https://cyrusalcala.com/assets/headshot-polo.webp",
+      "width": 768
+    }
+  ],
+  "overflow": false,
+  "url": "https://cyrusalcala.com/?release=78a78c9"
+}
