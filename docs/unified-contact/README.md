@@ -33,3 +33,13 @@ Pre-change repository: pushed tag backup/pre-unified-contact-2026-09-13 at af055
 - The form's Google-provided UI language follows the visitor's locale; question content remains English.
 
 See link-audit.json, static-validation.json and screenshots in this directory. Release details are appended after production verification.
+
+## Production release
+
+Deployed source commit: 54e4924.
+Cloudflare Pages deployment: https://e3636455.cyrusalcala.pages.dev
+Live domain: https://cyrusalcala.com
+
+All ten deployed page templates return200 and contain the expected forty consistent inquiry links, with no remaining mailto/calendar outreach. The live homepage action was followed in the browser and opened the correct published Google Form. See production-checks.json. CSS, JavaScript, assets and downloads were not changed by this release. The form editor and linked response sheet were left available in Chrome for the owner.
+
+The subsequent documentation commit records production evidence only. To roll back the website, deploy build/ from backup/pre-unified-contact-2026-09-13 in a separate checkout. The new Google Form and linked spreadsheet are separate Workspace resources; rolling back the site does not delete them or their responses.
