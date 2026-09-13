@@ -1,0 +1,55 @@
+{
+  "rows": [
+    {
+      "path": "/",
+      "formLinks": 4,
+      "independentMentions": 0
+    },
+    {
+      "path": "/work/",
+      "formLinks": 3,
+      "independentMentions": 0
+    },
+    {
+      "path": "/services/",
+      "formLinks": 8,
+      "independentMentions": 0
+    },
+    {
+      "path": "/about/",
+      "formLinks": 3,
+      "independentMentions": 0
+    },
+    {
+      "path": "/hire/",
+      "formLinks": 5,
+      "independentMentions": 0
+    },
+    {
+      "path": "/work/va-freelance-hub/",
+      "formLinks": 3,
+      "independentMentions": 0
+    },
+    {
+      "path": "/work/techwriter-bot/",
+      "formLinks": 3,
+      "independentMentions": 0
+    },
+    {
+      "path": "/work/cyrusalcala/",
+      "formLinks": 4,
+      "independentMentions": 0
+    },
+    {
+      "path": "/work/video/",
+      "formLinks": 4,
+      "independentMentions": 0
+    },
+    {
+      "path": "/404/",
+      "formLinks": 3,
+      "independentMentions": 0
+    }
+  ],
+  "designAndContactConfigurationUnchanged": true
+}
