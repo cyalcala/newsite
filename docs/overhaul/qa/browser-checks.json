@@ -1,0 +1,77 @@
+[
+  {
+    "headline": "44px",
+    "height": 812,
+    "images": [],
+    "overflow": false,
+    "path": "/",
+    "scrollWidth": 360,
+    "width": 375
+  },
+  {
+    "overflow": false,
+    "path": "/services/",
+    "width": 375
+  },
+  {
+    "overflow": false,
+    "path": "/work/techwriter-bot/",
+    "width": 375
+  },
+  {
+    "brokenImages": [],
+    "height": 1024,
+    "overflow": false,
+    "path": "/",
+    "width": 768
+  },
+  {
+    "headline": "112px",
+    "height": 1000,
+    "overflow": false,
+    "path": "/",
+    "width": 1440
+  },
+  {
+    "media": {
+      "error": null,
+      "paused": true,
+      "readyState": 4,
+      "time": 5.056
+    }
+  },
+  {
+    "contrast": {
+      "count": 58,
+      "failures": [],
+      "page": "https://e543b26d.cyrusalcala.pages.dev/hire/"
+    }
+  },
+  {
+    "brokenImages": 0,
+    "overflow": false,
+    "page": "/hire/",
+    "width": 360
+  },
+  {
+    "brokenImages": 0,
+    "overflow": false,
+    "page": "/work/",
+    "width": 360
+  },
+  {
+    "consoleErrors": []
+  },
+  {
+    "overflow": false,
+    "page": "/",
+    "stage": "final spacing",
+    "width": 360
+  },
+  {
+    "overflow": false,
+    "page": "/",
+    "stage": "final spacing",
+    "width": 1440
+  }
+]

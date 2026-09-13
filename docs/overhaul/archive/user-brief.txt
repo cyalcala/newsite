@@ -1,0 +1,1965 @@
+CYRUSALCALA.COM
+MASTER ONE-SHOT DESIGN, PORTFOLIO & COMMERCIAL OVERHAUL
+FOR CODEX ASTRA LIGHT
+
+============================================================
+0. MISSION
+============================================================
+
+You are taking ownership of the design overhaul and implementation of:
+
+https://cyrusalcala.com
+
+This is NOT a greenfield replacement.
+
+This is NOT a generic AI landing-page exercise.
+
+This is NOT permission to delete my existing body of work.
+
+This is an intelligent overhaul of my existing personal website into the definitive hub for everything I do:
+
+- personal brand
+- web-design business
+- services
+- products
+- portfolio
+- GitHub projects
+- AI/automation work
+- technical-writing work
+- professional/employment history
+- creative work
+- social/content work
+- future products and projects
+
+The website itself is PORTFOLIO PROJECT #0.
+
+I currently want to SELL WEBSITES.
+
+Therefore the finished cyrusalcala.com must itself be persuasive evidence that I understand:
+
+DESIGN SYSTEMS
+ART DIRECTION
+TYPOGRAPHY
+LAYOUT
+COMPOSITION
+INTERACTION
+RESPONSIVE DESIGN
+CONTENT HIERARCHY
+VISUAL STORYTELLING
+WEB DEVELOPMENT
+AI-ASSISTED DESIGN WITHOUT AI SLOP
+
+The desired perception is:
+
+SIMPLE SURFACE.
+SERIOUS DEPTH.
+EXCELLENT TASTE.
+
+The operating sequence is:
+
+PRESERVE
+→ DISCOVER
+→ CURATE
+→ DESIGN
+→ SYSTEMATIZE
+→ CRITIQUE
+→ REFINE
+→ PROVE
+→ SHIP
+→ SELL
+
+============================================================
+1. SUPREME GOVERNOR: THE DESIGN LOOP
+============================================================
+
+THIS IS THE MOST IMPORTANT RULE IN THIS BRIEF.
+
+THE DESIGN LOOP IS THE PRIMARY GOVERNOR OF THIS PROJECT.
+
+It outranks:
+
+- Astra's default aesthetic preferences
+- generic web-design conventions
+- Hallmark
+- component libraries
+- inspiration galleries
+- individual reference websites
+- convenience
+- first-generation output
+
+SOURCE MATERIAL:
+
+The Design Loop: Free Guide
+https://app.notion.com/p/The-Design-Loop-Free-Guide-3b8e8d6bd13781ff8bf2fc06fd5d0aac?pvs=39
+
+I have also provided the Design Loop PDF.
+
+Read/study the supplied PDF and use the methodology contained in it.
+
+DO NOT merely say that you used the Design Loop.
+
+OPERATE THROUGH IT.
+
+The Design Loop exists because a builder judging its own work from the same context develops contextual bias.
+
+The governing idea is:
+
+FRESH CONTEXT BUYS THE RESULT.
+
+Parallel or independent judgment may consume additional resources, but the purpose is to prevent the builder from repeatedly approving its own decisions.
+
+A critic sharing the builder's memory is grading its own homework.
+
+Therefore:
+
+BUILDER ≠ CRITIC.
+
+Do not collapse implementation and independent design judgment into one self-congratulatory pass.
+
+============================================================
+2. DESIGN LOOP PHASE 1 — INTERVIEW
+============================================================
+
+The original Design Loop begins with an Interview.
+
+For this project, much of the interview has ALREADY been answered by this brief.
+
+Do NOT unnecessarily ask me questions whose answers already exist here.
+
+The three core Design Loop interview questions are conceptually:
+
+1. What are we building, and how large is it?
+2. Name something that already does this brilliantly.
+3. What design system / brand document / script / existing source material already exists?
+
+For this project:
+
+WHAT ARE WE BUILDING?
+
+A comprehensive but elegantly organized personal/professional/commercial website centered on Cyrus Alcala.
+
+It must support:
+
+CLIENT SALES
++
+PORTFOLIO
++
+PRODUCTS
++
+EMPLOYMENT
++
+PROFESSIONAL IDENTITY
+
+The site may be multi-page if that is the correct information architecture.
+
+Do NOT force everything into one giant landing page.
+
+WHAT ALREADY DOES THIS BRILLIANTLY?
+
+Do not use one single reference.
+
+Research excellent examples using the reference ecosystem specified later in this prompt.
+
+WHAT EXISTING MATERIAL EXISTS?
+
+A LOT.
+
+Therefore inspect before building.
+
+Sources include:
+
+- current cyrusalcala.com
+- its codebase/repository
+- existing design/assets
+- images
+- graphics
+- animations
+- writing
+- résumé/professional information
+- existing portfolio material
+- GitHub
+- VA Freelance Hub
+- Techwriter Bot
+- other relevant repositories/projects
+- this brief
+- the supplied Design Loop PDF
+
+If something essential remains genuinely unknown after inspecting all available sources, ask only the minimum necessary question.
+
+Otherwise proceed.
+
+============================================================
+3. DESIGN LOOP PHASE 2 — PREFLIGHT
+============================================================
+
+PREFLIGHT IS A CHECK, NOT A QUESTIONNAIRE.
+
+Run it BEFORE major implementation.
+
+Report the result concisely.
+
+Verify:
+
+A. REFERENCES ARE ACTUALLY ACCESSIBLE
+
+Do not claim to have studied a URL you could not access.
+
+B. EXISTING SITE CAN ACTUALLY BE INSPECTED
+
+Inspect the rendered site where possible.
+
+C. REPOSITORY CAN ACTUALLY BE INSPECTED
+
+D. EXISTING ASSETS EXIST AND ARE IDENTIFIED
+
+E. CURRENT DESIGN SYSTEM / CSS / TOKENS / BRAND ELEMENTS ARE IDENTIFIED
+
+F. IMPORTANT LINKS AND PROJECTS ARE IDENTIFIED
+
+G. BACKUP / VERSION CONTROL STATUS IS UNDERSTOOD
+
+H. INPUTS REQUIRED FOR THE CRITICS EXIST
+
+I. THE PROJECT HAS ENOUGH INFORMATION TO BEGIN
+
+Then explicitly determine:
+
+WHAT IS WORKING?
+WHAT IS MISSING?
+WHICH CRITIC GETS BLINDED?
+
+Do not proceed blindly if a critical source cannot actually be inspected.
+
+============================================================
+4. DESIGN LOOP PHASE 3 — TEARDOWN
+============================================================
+
+This is a crucial phase.
+
+Do NOT begin with vague adjectives such as:
+
+"premium"
+"modern"
+"clean"
+"lots of whitespace"
+"strong hierarchy"
+
+Those are NOT sufficiently useful evaluation bars.
+
+Study real references and convert their effectiveness into CHECKABLE MECHANISMS.
+
+The Design Loop principle here is:
+
+A useful bar is something a critic can check by looking.
+
+Examples of the difference:
+
+BAD:
+"Feels premium."
+
+BETTER:
+A measurable/checkable typographic or compositional rule.
+
+BAD:
+"Strong hierarchy."
+
+BETTER:
+A visible relationship between headline, body, image, CTA and secondary content.
+
+BAD:
+"Good whitespace."
+
+BETTER:
+A defined spatial relationship that can be inspected.
+
+For every major design direction:
+
+REFERENCE
+→ OBSERVE
+→ IDENTIFY MECHANISM
+→ TURN MECHANISM INTO CHECKABLE BAR
+
+The teardown should inspect:
+
+- macrostructure
+- hierarchy
+- typography
+- scale
+- grid
+- whitespace
+- density
+- visual anchors
+- image treatment
+- contrast
+- CTA behavior
+- navigation
+- rhythm
+- component treatment
+- interaction
+- motion
+- responsiveness
+- editorial structure
+- portfolio storytelling
+
+Every line of the teardown should become something a critic can verify by looking at the rendered result.
+
+============================================================
+5. DESIGN LOOP PHASE 4 — LOOP
+============================================================
+
+Do NOT try to redesign the entire website as one giant undifferentiated task.
+
+Split the goal into the SMALLEST MEANINGFUL PIECES that can be:
+
+BUILT
+→ RENDERED
+→ JUDGED
+→ IMPROVED
+
+Examples might include:
+
+- navigation
+- hero
+- selected-work presentation
+- individual flagship project treatment
+- services section
+- products section
+- professional/Hire Me bridge
+- About section
+- CTA/footer
+- project-page system
+- Hire Me page
+- mobile navigation
+- typography system
+- responsive project presentation
+
+Do not automatically use those exact pieces if another decomposition is better.
+
+Use judgment.
+
+IMPORTANT RESOURCE RULE:
+
+The Design Loop is expensive because every round involves building plus multiple judgments.
+
+Therefore:
+
+DO NOT GAUNTLET EVERY PIXEL OF THE WEBSITE.
+
+Reserve the strongest loop for:
+
+- hero
+- primary navigation
+- homepage macrostructure
+- flagship project presentation
+- key service presentation
+- major project/case-study template
+- important responsive/mobile experiences
+
+Cap pieces intelligently.
+
+Prefer approximately 3–4 high-value pieces in an intensive round rather than dozens of simultaneous micro-pieces.
+
+Let me interrupt if necessary.
+
+============================================================
+6. THREE DISTINCT CRITICS
+============================================================
+
+For each major looped piece, obtain THREE DISTINCT JUDGMENTS.
+
+They must NOT converge into one generic:
+
+"looks good."
+
+Each critic has a different mandate.
+
+------------------------------------------------------------
+CRITIC A — BRIEF CRITIC
+------------------------------------------------------------
+
+Judges ONLY against the stated goal.
+
+Ignore aesthetic preference where possible.
+
+Questions include:
+
+Does this help Cyrus sell websites?
+
+Can a stranger understand Cyrus quickly?
+
+Does the page communicate the intended service/product?
+
+Does the project demonstrate capability?
+
+Does the hierarchy serve the business goal?
+
+Does it support both clients and employers without confusing them?
+
+Does it satisfy the specific brief for this piece?
+
+Do NOT let this critic become an art director.
+
+------------------------------------------------------------
+CRITIC B — SYSTEM CRITIC
+------------------------------------------------------------
+
+Judges ONLY against the established Cyrus design system.
+
+Check:
+
+- typography
+- spacing
+- color
+- grid
+- tokens
+- component rules
+- imagery rules
+- interaction rules
+- motion rules
+- responsiveness
+- design-system consistency
+
+This critic is intentionally mechanical.
+
+Its job is adherence.
+
+------------------------------------------------------------
+CRITIC C — CRAFT CRITIC
+------------------------------------------------------------
+
+This is the taste critic.
+
+It judges:
+
+THE RENDERED RESULT.
+
+Not merely code.
+
+Not merely the design-system specification.
+
+Never downgrade this critic to a cheap mechanical checker if a stronger visual/taste judgment is available.
+
+Its job is to ask:
+
+Does this actually look excellent?
+
+Does it feel designed?
+
+Does it look generic?
+
+Does it look AI-generated?
+
+Does it feel derivative?
+
+Does the composition work?
+
+Does the typography feel intentional?
+
+Is anything awkward?
+
+Is the final rendering better than merely "correct"?
+
+Would a strong designer approve this?
+
+Would Cyrus confidently sell web design using this page as evidence?
+
+============================================================
+7. FRESH CONTEXT / BLIND JUDGMENT
+============================================================
+
+This principle is mandatory.
+
+Critics should not simply inherit the builder's entire reasoning and then agree with it.
+
+Give critics the minimum context necessary for their mandate.
+
+BRIEF CRITIC:
+gets the goal/brief.
+
+SYSTEM CRITIC:
+gets the design-system rules.
+
+CRAFT CRITIC:
+gets the rendered result plus only the context needed for aesthetic judgment.
+
+Avoid contaminating critics with:
+
+- builder rationalizations
+- implementation excuses
+- previous praise
+- intended outcome presented as accomplished fact
+- long chains of internal reasoning
+
+A critic should be able to FAIL the work.
+
+If all critics automatically approve everything, the system is broken.
+
+============================================================
+8. CRITIC RULES
+============================================================
+
+CRITICS ARE HARSH.
+
+Praise is not useful unless it explains a meaningful success.
+
+Use simple verdicts where possible.
+
+Do NOT create fake precision with arbitrary scores.
+
+No meaningless:
+
+8.7/10
+92%
+"premium score"
+
+Prefer:
+
+PASS
+FAIL
+NEEDS REVISION
+
+with specific evidence.
+
+Critics judge the OUTPUT.
+
+Reading implementation alone is not sufficient for craft judgment.
+
+All three critics must PASS before a major piece is considered complete.
+
+If one fails:
+
+identify the SINGLE BIGGEST GAP.
+
+Fix that first.
+
+Do not randomly rewrite everything.
+
+Then render again and re-run judgment.
+
+============================================================
+9. LIVE PROGRESS PAGE
+============================================================
+
+Maintain a lightweight project progress record while working.
+
+For each major piece track:
+
+- piece
+- current status
+- builder iteration
+- Brief Critic verdict
+- System Critic verdict
+- Craft Critic verdict
+- biggest remaining gap
+- next action
+
+This can live in project documentation.
+
+Do not turn progress tracking into bureaucracy.
+
+It exists so the project can resume cleanly and so failed work is not silently forgotten.
+
+============================================================
+10. RESOURCE DISCIPLINE
+============================================================
+
+The Design Loop guide explicitly warns that this process can become expensive.
+
+Apply the same principle to Astra Light:
+
+WATCH THE LOOP.
+
+STOP WHEN APPROPRIATE.
+
+Do not endlessly iterate because iteration itself feels productive.
+
+Do not spend an entire session polishing a minor element while the site remains unshipped.
+
+Prioritize:
+
+1. Homepage
+2. Design system
+3. Flagship work
+4. Services
+5. Major project pages
+6. Hire Me pathway
+7. Mobile
+8. Final polish
+
+Hard stop criteria:
+
+A piece has passed all three critics.
+
+The business goal is satisfied.
+
+Further work would produce marginal improvement relative to cost/time.
+
+SHIP.
+
+============================================================
+11. WHAT WE ARE SELLING
+============================================================
+
+My commercial umbrella is:
+
+DIGITAL PRODUCTION + AI
+
+Possible core positioning:
+
+CYRUS ALCALA
+
+I build digital experiences, content, and AI systems that help businesses grow.
+
+Websites · AI Video · Social Media · Automation
+
+Another possible direction:
+
+I design, build, and automate things for the internet.
+
+Do not blindly preserve either sentence if the Design Loop produces a materially clearer version.
+
+But preserve the STRATEGIC POSITIONING:
+
+ONE CYRUS.
+MULTIPLE CAPABILITIES.
+FOUR EASY-TO-BUY COMMERCIAL PILLARS.
+
+============================================================
+12. COMMERCIAL PRIORITY: WEBSITES
+============================================================
+
+My immediate priority is selling websites.
+
+Therefore WEBSITES should receive especially strong treatment.
+
+I want to be able to send cyrusalcala.com to a business owner and have the website itself function as proof.
+
+Potential entry offer:
+
+WEBSITES
+Starting around ₱5,000
+
+Do not make cheapness the brand.
+
+₱5,000 can be an accessible entry point.
+
+The presentation should still feel substantially more valuable.
+
+============================================================
+13. FOUR PRIMARY SERVICES
+============================================================
+
+Keep purchasing simple.
+
+01 — WEBSITES
+
+Responsive websites and landing pages.
+
+02 — AI VIDEO
+
+Ads, reels, product videos, branded video and short-form creative production.
+
+03 — SOCIAL MEDIA
+
+Content systems, graphics, reels, campaigns and ongoing content production.
+
+04 — AI SYSTEMS & AUTOMATION
+
+Automation, workflows, agents, integrations and intelligent business systems.
+
+DO NOT create twelve service categories.
+
+Consulting does not need to become a fifth giant category.
+
+Consulting is simply how someone buys my expertise when their problem crosses categories.
+
+============================================================
+14. DESIGN SYSTEMS ARE PART OF MY PRODUCT
+============================================================
+
+This is strategically important.
+
+I am NOT merely selling:
+
+"some web pages."
+
+I want my work to demonstrate:
+
+COHERENT DIGITAL DESIGN.
+
+A website project can establish:
+
+- art direction
+- typography
+- palette
+- spacing
+- layout
+- component language
+- imagery treatment
+- CTA treatment
+- interaction behavior
+- motion language
+- digital brand presentation
+
+That system can naturally extend into:
+
+WEBSITE
+→ SOCIAL CONTENT
+→ VIDEO
+→ CAMPAIGNS
+→ LANDING PAGES
+→ SALES MATERIAL
+
+Therefore the design system created for cyrusalcala.com should itself demonstrate how I think about design systems for clients.
+
+Do NOT falsely claim that I provide full traditional brand strategy when the engagement does not include that.
+
+Sell coherent digital design, not inflated terminology.
+
+============================================================
+15. SERVICES ≠ PRODUCTS ≠ CAPABILITIES
+============================================================
+
+Keep these concepts separate.
+
+SERVICES answer:
+
+WHAT CAN I BUY FROM CYRUS?
+
+PRODUCTS/PROJECTS answer:
+
+WHAT HAS CYRUS BUILT?
+
+PROFESSIONAL EXPERIENCE answers:
+
+WHY SHOULD I HIRE CYRUS?
+
+PORTFOLIO answers:
+
+WHAT CAN CYRUS ACTUALLY DO?
+
+These categories can overlap without being identical.
+
+============================================================
+16. FLAGSHIP PRODUCT: VA FREELANCE HUB
+============================================================
+
+Inspect:
+
+https://github.com/cyalcala/va-freelance-hub
+
+Treat VA Freelance Hub as a potentially FLAGSHIP portfolio piece.
+
+Do NOT display it as:
+
+GitHub icon
+VA Freelance Hub
+View Repo
+
+That wastes the project.
+
+Turn it into a PROJECT STORY.
+
+Communicate approximately:
+
+PROBLEM
+↓
+WHY I BUILT IT
+↓
+WHAT THE PRODUCT DOES
+↓
+HOW THE SYSTEM WORKS
+↓
+WHAT I DESIGNED/IMPLEMENTED
+↓
+WHAT MAKES IT INTERESTING
+↓
+WHAT IT DEMONSTRATES
+↓
+DEEPER TECHNICAL DETAIL
+↓
+VIEW PROJECT / GITHUB
+
+The first layer should be understandable to a non-engineer.
+
+Technical visitors should be able to go deeper.
+
+Use architecture/workflow visuals where they genuinely help comprehension.
+
+Do not expose complexity merely to look intelligent.
+
+============================================================
+17. FLAGSHIP PRODUCT: TECHWRITER BOT
+============================================================
+
+Inspect:
+
+https://github.com/cyalcala/techwriter-bot
+
+This is another important portfolio project.
+
+It connects:
+
+TECHNICAL WRITING
++
+KNOWLEDGE MANAGEMENT
++
+AI
++
+SOFTWARE
++
+AUTOMATION
+
+Present it as a project story, not a naked repository.
+
+It is particularly valuable for the HIRE ME pathway because it connects my professional background with my current AI/product-building work.
+
+Show:
+
+- problem
+- concept
+- product/interface
+- workflow
+- representative output
+- architecture where useful
+- professional relevance
+- what I built
+- GitHub/deeper exploration
+
+============================================================
+18. GITHUB
+============================================================
+
+My GitHub is:
+
+https://github.com/cyalcala
+
+Inspect it.
+
+Identify other repositories that genuinely strengthen the portfolio.
+
+Do NOT automatically feature everything.
+
+CURATE.
+
+A repository is not automatically a case study.
+
+The strongest projects should become understandable stories.
+
+Other repositories can remain accessible through GitHub.
+
+============================================================
+19. PRESERVE CYRUSALCALA.COM
+============================================================
+
+My current website already contains assets I like.
+
+THIS IS AN OVERHAUL, NOT DEMOLITION.
+
+Before restructuring:
+
+INVENTORY THE EXISTING SITE.
+
+Inspect for:
+
+- photographs
+- illustrations
+- graphics
+- video
+- animations
+- screenshots
+- project images
+- case studies
+- writing
+- résumé content
+- professional history
+- certifications
+- project descriptions
+- downloads
+- branding elements
+- visual experiments
+- existing pages
+- links
+- SEO content
+- components
+- useful code
+- existing design ideas
+
+Classify meaningful content:
+
+FEATURE
+Strong enough for prominent placement.
+
+KEEP
+Useful and should remain accessible.
+
+REWORK
+Strong substance, weak presentation.
+
+ARCHIVE
+Worth preserving but should not compete for attention.
+
+REMOVE
+Only genuinely obsolete, broken, duplicate, misleading or harmful.
+
+DEFAULT TO PRESERVATION.
+
+DO NOT solve complexity by deleting my work.
+
+SOLVE COMPLEXITY THROUGH INFORMATION ARCHITECTURE AND DESIGN.
+
+============================================================
+20. VERSION SAFETY
+============================================================
+
+Before destructive restructuring:
+
+- inspect repository state
+- inspect branches/history where appropriate
+- inventory important assets
+- verify version control
+- create a safe checkpoint
+- commit/preserve useful existing work
+- do not destroy source material
+
+Aggressive visual redesign.
+
+Conservative content preservation.
+
+============================================================
+21. TWO AUDIENCES, ONE CYRUS
+============================================================
+
+The website serves two major audiences.
+
+CLIENTS:
+
+They want to know:
+
+What can Cyrus build?
+Does his work look good?
+Can he solve my problem?
+What can I buy?
+How do I start?
+
+Give them:
+
+WORK WITH ME
+
+EMPLOYERS:
+
+They want:
+
+- professional history
+- Technical Writing
+- Knowledge Management
+- Customer Operations
+- AI & Automation
+- Web Development
+- projects
+- certifications
+- résumé
+- evidence of competence
+
+Give them:
+
+HIRE ME
+
+DO NOT create two separate brands.
+
+Create ONE Cyrus Alcala identity with two obvious paths.
+
+============================================================
+22. PROGRESSIVE DISCLOSURE
+============================================================
+
+The website should contain substantial depth while FEELING SIMPLE.
+
+LAYER 1 — ~10 SECONDS
+
+Who is Cyrus?
+What does he do?
+Does his work look good?
+Where should I click?
+
+LAYER 2 — ~60 SECONDS
+
+Selected work
+Services
+Major products
+Professional credibility
+About
+
+LAYER 3 — DEEP EXPLORATION
+
+Case studies
+GitHub
+VA Freelance Hub
+Techwriter Bot
+Technical Writing
+Knowledge Management
+Professional history
+Architecture
+Experiments
+Certifications
+Writing
+Additional projects
+
+GOVERNING RULE:
+
+EVERYTHING HAS A HOME.
+
+THAT DOES NOT MEAN:
+
+EVERYTHING GOES ON THE HOMEPAGE.
+
+============================================================
+23. HOMEPAGE INFORMATION ARCHITECTURE
+============================================================
+
+Use the Design Loop to determine the final composition.
+
+Do NOT treat the following as a rigid template.
+
+Likely hierarchy:
+
+01 — HERO
+
+Immediate identity.
+
+Immediate visual confidence.
+
+Possible messaging:
+
+I design, build, and automate things for the internet.
+
+or
+
+I build digital experiences, content, and AI systems that help businesses grow.
+
+Potential actions:
+
+VIEW MY WORK
+WORK WITH ME
+
+HIRE ME remains clearly accessible.
+
+02 — SELECTED WORK
+
+THIS SHOULD BE A DOMINANT EXPERIENCE.
+
+Large, editorial, visual project storytelling.
+
+Potential work:
+
+- strongest website/design work
+- VA Freelance Hub
+- Techwriter Bot
+- strongest AI video work
+- strongest social/content work
+
+Do not make this a generic card grid unless the Design Loop demonstrates that a grid is actually the strongest solution.
+
+03 — SERVICES
+
+Websites
+AI Video
+Social Media
+AI Systems & Automation
+
+Simple.
+
+Outcome-oriented.
+
+Easy to buy.
+
+04 — PRODUCTS / SYSTEMS
+
+Show that I build substantial things.
+
+05 — PROFESSIONAL BRIDGE
+
+For employers:
+
+HIRE ME
+
+06 — ABOUT
+
+Human.
+Concise.
+Memorable.
+Credible.
+
+07 — FINAL CTA
+
+Something approximately:
+
+Need something built?
+
+Tell me what you're trying to accomplish.
+
+START A PROJECT
+
+Secondary:
+
+Looking to hire me?
+HIRE ME
+
+============================================================
+24. DESIGN REFERENCE ECOSYSTEM
+============================================================
+
+You are EXPLICITLY AUTHORIZED AND EXPECTED to visit, inspect and study relevant examples from these sources.
+
+Do not merely list them in documentation.
+
+Use them.
+
+PRIMARY METHODOLOGY:
+
+The Design Loop
+https://app.notion.com/p/The-Design-Loop-Free-Guide-3b8e8d6bd13781ff8bf2fc06fd5d0aac?pvs=39
+
+ANTI-SLOP / DESIGN QA:
+
+Hallmark
+https://github.com/Nutlope/hallmark
+
+Hallmark site:
+https://www.usehallmark.com/
+
+DESIGN SYSTEM / STYLE REFERENCES:
+
+Refero Styles
+https://styles.refero.design/
+
+WEBSITE INSPIRATION:
+
+Inspora
+https://inspora.design/
+
+PROFESSIONAL UI / PRODUCT REFERENCES:
+
+Mobbin
+https://mobbin.com/
+
+COMPONENT / IMPLEMENTATION REFERENCES:
+
+21st.dev
+https://21st.dev/
+
+CONTEMPORARY WEB REFERENCES:
+
+Recent
+https://recent.design/
+
+MOTION / INTERACTION REFERENCES:
+
+60fps
+https://60fps.design/
+
+HERO REFERENCES:
+
+Supahero
+https://supahero.io/
+
+NAVIGATION REFERENCES:
+
+Navbar Gallery
+https://www.navbar.gallery/
+
+CTA REFERENCES:
+
+CTA Gallery
+https://www.cta.gallery/
+
+DESIGN-SYSTEM COMPONENT REFERENCES:
+
+The Component Gallery
+https://component.gallery/
+
+PRODUCT / UX FLOW REFERENCES:
+
+Page Flows
+https://pageflows.com/
+
+Use these as RESEARCH SOURCES.
+
+DO NOT copy a site 1:1.
+
+DO NOT assemble random components from all of them.
+
+REFERENCE
+→ STUDY
+→ TEARDOWN
+→ EXTRACT MECHANISM
+→ SYNTHESIZE
+→ BUILD ORIGINAL CYRUS SYSTEM
+
+============================================================
+25. REFERENCE DISCIPLINE
+============================================================
+
+A reference library is not a shopping cart.
+
+Do not say:
+
+"I like this hero."
+"I like this navbar."
+"I like this card."
+"I like this animation."
+
+and glue them together.
+
+Instead determine WHY something works.
+
+Examples:
+
+- macrostructure
+- typographic relationship
+- visual rhythm
+- image scale
+- asymmetry
+- navigation behavior
+- density
+- hierarchy
+- interaction
+- pacing
+- responsive transformation
+
+Extract principles.
+
+Do not clone artifacts.
+
+============================================================
+26. HALLMARK — ANTI-AI-SLOP QA
+============================================================
+
+Study and use:
+
+https://github.com/Nutlope/hallmark
+
+Hallmark is SUBORDINATE to the Design Loop.
+
+Hierarchy:
+
+THE DESIGN LOOP
+→ supreme process/governor
+
+CYRUS DESIGN SYSTEM
+→ project-specific source of visual truth
+
+REFERENCES
+→ visual evidence/nutrition
+
+HALLMARK
+→ anti-slop critic and QA layer
+
+ASTRA
+→ designer + implementer
+
+Do NOT invert this hierarchy.
+
+Hallmark is especially useful for:
+
+BUILD
+AUDIT
+REDESIGN
+STUDY
+
+Use it where compatible with the project/environment.
+
+Hallmark should help identify common AI-design defaults.
+
+But Hallmark does not get to arbitrarily replace the project identity.
+
+============================================================
+27. AI SLOP ELIMINATION
+============================================================
+
+REJECT GENERIC AI WEBSITE FINGERPRINTS.
+
+Be suspicious of:
+
+- predictable centered hero
+- glowing gradient orb
+- purple/blue AI palette by default
+- endless rounded cards
+- every element inside a container
+- excessive pills
+- generic feature grids
+- icon soup
+- meaningless badges
+- fake dashboards
+- fake statistics
+- generic testimonials
+- glassmorphism without purpose
+- arbitrary gradient text
+- giant tool-logo walls
+- generic "AI-powered" language
+- meaningless floating objects
+- identical section rhythm
+- unnecessary 3D blobs
+- decorative noise
+- excessive border radii
+- excessive shadows
+- template-like SaaS composition
+- gratuitous animation
+- default-looking AI typography
+
+If the same design could plausibly be generated for:
+
+a dentist
+a crypto startup
+a marketing agency
+an AI SaaS
+and Cyrus Alcala
+
+with only the copy changed,
+
+THE DESIGN IS NOT SPECIFIC ENOUGH.
+
+============================================================
+28. CYRUS DESIGN SYSTEM
+============================================================
+
+The Design Loop must produce ONE coherent Cyrus design system.
+
+Define:
+
+BRAND CHARACTER
+
+Appropriate combination of:
+
+- contemporary
+- creative
+- technically sophisticated
+- thoughtful
+- capable
+- human
+- independent
+- practical
+- confident
+- design-conscious
+
+TYPOGRAPHY
+
+Define:
+
+- display
+- body
+- scale
+- weight
+- line-height
+- measure
+- hierarchy
+- responsive behavior
+
+Typography should carry identity.
+
+COLOR
+
+Define:
+
+- background
+- surfaces
+- text hierarchy
+- accent
+- interactive states
+- accessibility/contrast
+
+Do not create a rainbow because I have four services.
+
+SPACING
+
+Create intentional rhythm.
+
+GRID
+
+Define desktop/tablet/mobile behavior.
+
+IMAGERY
+
+Create coherent rules for:
+
+- website screenshots
+- product screenshots
+- diagrams
+- social graphics
+- AI video
+- portraits
+- writing
+- technical work
+- GitHub projects
+
+COMPONENTS
+
+Use a restrained component language.
+
+NOT EVERYTHING IS A CARD.
+
+MOTION
+
+Define:
+
+- entrance
+- hover
+- transition
+- project reveal
+- navigation
+- reduced-motion behavior
+
+Motion supports meaning and hierarchy.
+
+============================================================
+29. HALLMARK IMPLEMENTATION DISCIPLINE
+============================================================
+
+Where Hallmark is compatible with the stack, follow its useful implementation principles.
+
+Keep design tokens centralized.
+
+Prefer semantic token names.
+
+Respect the project's existing framework conventions.
+
+Do not casually replace global stylesheets or framework directives.
+
+Do not create parallel competing token systems unnecessarily.
+
+Do not let a design tool destroy existing project architecture.
+
+VISUAL DESIGN SHOULD INTEGRATE WITH THE CODEBASE.
+
+============================================================
+30. MOBILE IS A FIRST-CLASS DESIGN PROBLEM
+============================================================
+
+DO NOT:
+
+design desktop
+→ squeeze it
+→ call that mobile.
+
+Explicitly Design Loop:
+
+DESKTOP
+TABLET
+MOBILE
+
+Inspect:
+
+- hero hierarchy
+- navigation
+- typography
+- project storytelling
+- image cropping
+- CTA placement
+- spacing
+- touch targets
+- motion
+- loading
+- content order
+- overflow
+- readability
+
+Mobile should feel intentionally composed.
+
+============================================================
+31. DO NOT SELL MY TOOLCHAIN
+============================================================
+
+I may use:
+
+Astra
+Codex
+ChatGPT
+Claude
+Cloudflare
+Supabase
+Higgsfield
+KIE
+FAL
+MCPs
+agents
+automation tools
+other AI models
+
+DO NOT make these the central proposition.
+
+CLIENTS BUY:
+
+A WEBSITE.
+
+Not:
+"an Astra implementation."
+
+A VIDEO.
+
+Not:
+"a generative video pipeline."
+
+SOCIAL CONTENT.
+
+Not:
+"multimodal orchestration."
+
+AUTOMATION.
+
+Not:
+"MCP-powered agent architecture."
+
+Technology is leverage.
+
+OUTCOME IS THE PRODUCT.
+
+============================================================
+32. PROFESSIONAL / HIRE ME IDENTITY
+============================================================
+
+Technical Writing and Knowledge Management remain important.
+
+Do NOT create a fifth/sixth/seventh confusing commercial service pillar on the homepage merely to accommodate my professional history.
+
+Instead give them strong placement in:
+
+HIRE ME
+PROFESSIONAL WORK
+PROJECTS
+CASE STUDIES
+
+Relevant professional areas include:
+
+Technical Writing
+Knowledge Management
+Customer Operations
+AI & Automation
+Web Development
+
+The website must be usable for job applications without weakening its commercial positioning.
+
+============================================================
+33. PORTFOLIO TAXONOMY
+============================================================
+
+The portfolio may be broader than the service menu.
+
+Potential taxonomy:
+
+WEB
+VIDEO
+SOCIAL
+PRODUCTS / SYSTEMS
+TECHNICAL WRITING / DOCUMENTATION
+EXPERIMENTS
+
+Do not expose every category with equal weight.
+
+CURATE.
+
+The service menu should be SMALL.
+
+The body of evidence can be DEEP.
+
+============================================================
+34. DO NOT INVENT CREDIBILITY
+============================================================
+
+Never fabricate:
+
+- clients
+- testimonials
+- revenue
+- traffic
+- conversion metrics
+- performance metrics
+- project outcomes
+- awards
+- employment
+- user counts
+- case-study results
+
+If something is a concept:
+
+LABEL IT AS A CONCEPT.
+
+If something is experimental:
+
+LABEL IT APPROPRIATELY.
+
+REAL WORK + HONEST PRESENTATION is stronger than fake credibility.
+
+============================================================
+35. DO NOT OVERENGINEER
+============================================================
+
+Do NOT transform this into:
+
+- SaaS
+- giant CMS
+- autonomous-agent architecture
+- framework migration for entertainment
+- massive backend
+- infrastructure experiment
+- weeks of tooling
+
+This is:
+
+PERSONAL BRAND
++
+PORTFOLIO
++
+SERVICE BUSINESS
++
+PRODUCT SHOWCASE
++
+PROFESSIONAL HUB
+
+Engineering serves those purposes.
+
+============================================================
+36. DOWNSTREAM COMMERCIAL SYSTEM
+============================================================
+
+The finished website becomes the source of truth.
+
+CYRUS DESIGN SYSTEM
+→ social visual system
+
+WEBSITE PROJECTS
+→ portfolio
+
+PORTFOLIO
+→ social content
+
+BEFORE/AFTER REDESIGNS
+→ Reels/posts
+
+CASE STUDIES
+→ sales proof
+
+SERVICES
+→ offers
+
+CTA LANGUAGE
+→ outreach
+
+AI VIDEO
+→ content + proof
+
+PRODUCTS
+→ technical credibility
+
+HIRE ME
+→ job applications
+
+The website should REDUCE future marketing complexity.
+
+============================================================
+37. FIRST EXECUTION SEQUENCE
+============================================================
+
+DO THIS IN ORDER.
+
+STEP 1
+Read/study the supplied Design Loop PDF.
+
+Also retain the source URL:
+
+https://app.notion.com/p/The-Design-Loop-Free-Guide-3b8e8d6bd13781ff8bf2fc06fd5d0aac?pvs=39
+
+STEP 2
+Audit:
+
+https://cyrusalcala.com
+
+STEP 3
+Audit the current website repository and assets.
+
+STEP 4
+Create a safe version-control checkpoint before destructive changes.
+
+STEP 5
+Audit:
+
+https://github.com/cyalcala
+
+especially:
+
+https://github.com/cyalcala/va-freelance-hub
+
+https://github.com/cyalcala/techwriter-bot
+
+STEP 6
+Run Design Loop PREFLIGHT.
+
+STEP 7
+Research appropriate references using:
+
+https://styles.refero.design/
+https://inspora.design/
+https://mobbin.com/
+https://21st.dev/
+https://recent.design/
+https://60fps.design/
+https://supahero.io/
+https://www.navbar.gallery/
+https://www.cta.gallery/
+https://component.gallery/
+https://pageflows.com/
+
+STEP 8
+Study:
+
+https://github.com/Nutlope/hallmark
+
+and where useful:
+
+https://www.usehallmark.com/
+
+STEP 9
+Perform DESIGN LOOP TEARDOWNS on the strongest references.
+
+Convert reference qualities into CHECKABLE BARS.
+
+STEP 10
+Inventory existing Cyrus assets and classify:
+
+FEATURE
+KEEP
+REWORK
+ARCHIVE
+REMOVE
+
+STEP 11
+Establish information architecture.
+
+STEP 12
+Establish ONE Cyrus design system.
+
+STEP 13
+Choose the first 3–4 highest-value Design Loop pieces.
+
+STEP 14
+BUILD.
+
+STEP 15
+RENDER.
+
+STEP 16
+Run:
+
+BRIEF CRITIC
+SYSTEM CRITIC
+CRAFT CRITIC
+
+using appropriately separated/fresh context.
+
+STEP 17
+If any critic fails:
+
+identify the single biggest gap
+→ fix
+→ render
+→ judge again.
+
+STEP 18
+When a piece passes:
+
+move to the next.
+
+STEP 19
+Run Hallmark/anti-slop audit at appropriate milestones.
+
+STEP 20
+Run explicit desktop/tablet/mobile loops.
+
+STEP 21
+Perform final site-wide coherence pass.
+
+STEP 22
+Verify:
+
+- links
+- CTAs
+- responsive behavior
+- accessibility
+- performance
+- metadata
+- SEO fundamentals
+- content accuracy
+- project links
+- contact path
+- résumé/Hire Me path
+
+STEP 23
+Commit/document the completed overhaul.
+
+STEP 24
+SHIP.
+
+============================================================
+38. AUTONOMY RULE
+============================================================
+
+DO NOT repeatedly stop and ask me about minor aesthetic decisions.
+
+This brief gives you substantial authority.
+
+Exercise professional judgment.
+
+Only stop when:
+
+1. a genuinely important factual detail is unavailable;
+2. a major business-positioning decision cannot safely be inferred;
+3. destructive/irreversible action requires approval;
+4. a required source is inaccessible and materially blocks correct work;
+5. a real hard-stop/resource ceiling is reached.
+
+Otherwise:
+
+CONTINUE.
+
+Do not use uncertainty about a minor detail as an excuse to stop.
+
+============================================================
+39. DEFINITION OF DONE
+============================================================
+
+THIS PROJECT IS NOT DONE BECAUSE THE CODE COMPILES.
+
+It is done when:
+
+A stranger understands Cyrus in roughly 10 seconds.
+
+A client understands what they can buy.
+
+A business owner sees evidence that Cyrus can design websites.
+
+An employer understands why Cyrus is valuable.
+
+The website itself is a portfolio piece.
+
+The Cyrus design system is coherent.
+
+The design does not look generically AI-generated.
+
+Hallmark/anti-slop QA has been applied where useful.
+
+The important Design Loop pieces have passed:
+
+BRIEF
+SYSTEM
+CRAFT
+
+The existing valuable cyrusalcala.com assets have been preserved and intelligently repositioned.
+
+VA Freelance Hub has a meaningful project story.
+
+Techwriter Bot has a meaningful project story.
+
+GitHub projects have context rather than naked repository links.
+
+Services are simple.
+
+Capabilities feel deep.
+
+Products are discoverable.
+
+Professional history is discoverable.
+
+The homepage is curated rather than overloaded.
+
+Desktop feels intentionally designed.
+
+Tablet feels intentionally designed.
+
+Mobile feels intentionally designed.
+
+Copy sounds human.
+
+Navigation is clear.
+
+CTAs work.
+
+Links work.
+
+Contact works.
+
+Performance is strong.
+
+Accessibility is reasonable.
+
+SEO fundamentals exist.
+
+No fake claims exist.
+
+Version history is safe.
+
+The website is deployable.
+
+And most importantly:
+
+I CAN SEND CYRUSALCALA.COM TO A BUSINESS OWNER AND SELL A WEBSITE.
+
+I CAN SEND IT TO AN EMPLOYER AND APPLY FOR A JOB.
+
+I CAN USE IT AS MY SOCIAL PROFILE DESTINATION.
+
+I CAN USE IT IN DIRECT OUTREACH.
+
+I CAN USE IT UNDER SALES VIDEOS.
+
+I CAN USE IT AS THE CENTER OF EVERYTHING I DO.
+
+============================================================
+40. FINAL GOVERNANCE
+============================================================
+
+THE DESIGN LOOP GOVERNS.
+
+THE CYRUS DESIGN SYSTEM UNIFIES.
+
+REFERENCES PROVIDE EVIDENCE.
+
+HALLMARK ATTACKS AI SLOP.
+
+ASTRA DESIGNS AND IMPLEMENTS.
+
+THE THREE CRITICS JUDGE.
+
+THE RENDERED RESULT IS THE TRUTH.
+
+DO NOT SOLVE COMPLEXITY BY DELETING MY WORK.
+
+SOLVE IT THROUGH DESIGN.
+
+DO NOT ENDLESSLY BUILD.
+
+SHIP WHEN THE BARS ARE PASSED.
+
+PRESERVE
+→ PREFLIGHT
+→ TEARDOWN
+→ BUILD
+→ RENDER
+→ BRIEF CRITIC
+→ SYSTEM CRITIC
+→ CRAFT CRITIC
+→ FIX THE BIGGEST GAP
+→ REPEAT
+→ PASS
+→ SHIP
+→ SELL
+
+BEGIN NOW.
+
+FIRST ACTION:
+
+Read the supplied Design Loop PDF.
+
+Then audit the existing website and repository.
+
+Then run Preflight.
+
+Do not begin by generating a generic new homepage.

@@ -1,0 +1,125 @@
+{
+  "base": "https://e543b26d.cyrusalcala.pages.dev",
+  "date": "2026-09-13T03:47:44.076Z",
+  "results": [
+    {
+      "path": "/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 8858,
+      "ok": true
+    },
+    {
+      "path": "/work/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 6887,
+      "ok": true
+    },
+    {
+      "path": "/services/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 8689,
+      "ok": true
+    },
+    {
+      "path": "/about/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 5910,
+      "ok": true
+    },
+    {
+      "path": "/hire/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 8020,
+      "ok": true
+    },
+    {
+      "path": "/work/va-freelance-hub/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7873,
+      "ok": true
+    },
+    {
+      "path": "/work/techwriter-bot/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7882,
+      "ok": true
+    },
+    {
+      "path": "/work/cyrusalcala/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 7063,
+      "ok": true
+    },
+    {
+      "path": "/work/video/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 9288,
+      "ok": true
+    },
+    {
+      "path": "/assets/Cyrus-Alcala-Resume.docx",
+      "status": 200,
+      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+      "bytes": 8967,
+      "ok": true
+    },
+    {
+      "path": "/assets/Google-AI-Professional-Certificate.pdf",
+      "status": 200,
+      "type": "application/pdf",
+      "bytes": 435174,
+      "ok": true
+    },
+    {
+      "path": "/assets/social-card.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 156670,
+      "ok": true
+    },
+    {
+      "path": "/site.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 22757,
+      "ok": true
+    },
+    {
+      "path": "/site.js",
+      "status": 200,
+      "type": "application/javascript",
+      "bytes": 914,
+      "ok": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "type": "text/plain; charset=utf-8",
+      "bytes": 68,
+      "ok": true
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "type": "application/xml",
+      "bytes": 616,
+      "ok": true
+    },
+    {
+      "path": "/missing-page-check",
+      "status": 404,
+      "type": "text/html; charset=utf-8",
+      "bytes": 3788,
+      "ok": true
+    }
+  ]
+}
