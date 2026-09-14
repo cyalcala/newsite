@@ -8,7 +8,8 @@ for(const page of pages){
  if(!html.includes('<main id="main">'))issues.push(`${file}: missing main`);
  for(const m of html.matchAll(/(?:href|src|poster)="([^"]+)"/g)){
   const url=m[1];if(/^(https?:|mailto:|data:)/.test(url))continue;
-  const [pathname,hash]=url.split('#');
+  const [pathnameWithQuery,hash]=url.split('#');
+  const pathname=pathnameWithQuery.split('?')[0];
   let target=pathname?path.join('build',pathname):file;
   if(pathname.endsWith('/'))target=path.join(target,'index.html');
   if(!fs.existsSync(target)){issues.push(`${file}: missing ${url}`);continue;}

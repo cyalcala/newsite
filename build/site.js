@@ -8,7 +8,11 @@ const menu=document.querySelector('.mobile-nav');
 if(menu){
  document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.open){menu.open=false;menu.querySelector('summary').focus()}});
  document.addEventListener('click',event=>{if(menu.open&&!menu.contains(event.target))menu.open=false});
- menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>menu.open=false));
+ menu.querySelectorAll('a').forEach(link=>{
+  link.addEventListener('click',()=>{
+   setTimeout(()=>{menu.open=false},60);
+  });
+ });
 }
 
 // Smooth inquiry overlay dialog
@@ -24,7 +28,9 @@ if(dialog){
   void dialog.offsetWidth;
   dialog.classList.add('is-visible');
   document.body.style.overflow='hidden';
-  setTimeout(()=>{if(firstInput)firstInput.focus()},120);
+  if(window.innerWidth>700&&firstInput){
+   setTimeout(()=>{firstInput.focus()},120);
+  }
  }
 
  function closeDialog(){
@@ -33,13 +39,14 @@ if(dialog){
   setTimeout(()=>{dialog.classList.remove('is-active')},280);
  }
 
- document.querySelectorAll('.open-inquiry-btn, a[href="#contact"], a[href="#inquiry"]').forEach(el=>{
-  el.addEventListener('click',e=>{
+ document.addEventListener('click',e=>{
+  const trigger=e.target.closest('.open-inquiry-btn, a[href="#contact"], a[href="#inquiry"]');
+  if(trigger){
    e.preventDefault();
    const m=document.querySelector('.mobile-nav');
    if(m&&m.open)m.open=false;
    openDialog();
-  });
+  }
  });
 
  if(closeBtn)closeBtn.addEventListener('click',closeDialog);
