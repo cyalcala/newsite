@@ -1,68 +1,68 @@
 {
   "base": "https://cyrusalcala.com",
-  "date": "2026-09-14T12:47:53.361Z",
+  "date": "2026-09-14T13:13:45.828Z",
   "results": [
     {
       "path": "/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 13066,
+      "bytes": 13737,
       "ok": true
     },
     {
       "path": "/work/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 11513,
+      "bytes": 12184,
       "ok": true
     },
     {
       "path": "/services/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 12986,
+      "bytes": 13657,
       "ok": true
     },
     {
       "path": "/about/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 9933,
+      "bytes": 10604,
       "ok": true
     },
     {
       "path": "/hire/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 11897,
+      "bytes": 12568,
       "ok": true
     },
     {
       "path": "/work/va-freelance-hub/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 11595,
+      "bytes": 12266,
       "ok": true
     },
     {
       "path": "/work/techwriter-bot/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 11642,
+      "bytes": 12313,
       "ok": true
     },
     {
       "path": "/work/cyrusalcala/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 10782,
+      "bytes": 11453,
       "ok": true
     },
     {
       "path": "/work/video/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 13464,
+      "bytes": 14135,
       "ok": true
     },
     {
@@ -90,14 +90,14 @@
       "path": "/site.css",
       "status": 200,
       "type": "text/css; charset=utf-8",
-      "bytes": 26933,
+      "bytes": 29327,
       "ok": true
     },
     {
       "path": "/site.js",
       "status": 200,
       "type": "application/javascript",
-      "bytes": 4059,
+      "bytes": 5309,
       "ok": true
     },
     {
@@ -118,7 +118,7 @@
       "path": "/missing-page-check",
       "status": 404,
       "type": "text/html; charset=utf-8",
-      "bytes": 7766,
+      "bytes": 8437,
       "ok": true
     }
   ]
