@@ -1,75 +1,75 @@
 {
   "base": "https://cyrusalcala.com",
-  "date": "2026-09-13T04:08:04.826Z",
+  "date": "2026-09-14T12:47:53.361Z",
   "results": [
     {
       "path": "/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 9182,
+      "bytes": 13066,
       "ok": true
     },
     {
       "path": "/work/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 7211,
+      "bytes": 11513,
       "ok": true
     },
     {
       "path": "/services/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 9353,
+      "bytes": 12986,
       "ok": true
     },
     {
       "path": "/about/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 6234,
+      "bytes": 9933,
       "ok": true
     },
     {
       "path": "/hire/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 8496,
+      "bytes": 11897,
       "ok": true
     },
     {
       "path": "/work/va-freelance-hub/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 8197,
+      "bytes": 11595,
       "ok": true
     },
     {
       "path": "/work/techwriter-bot/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 8206,
+      "bytes": 11642,
       "ok": true
     },
     {
       "path": "/work/cyrusalcala/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 7387,
+      "bytes": 10782,
       "ok": true
     },
     {
       "path": "/work/video/",
       "status": 200,
       "type": "text/html; charset=utf-8",
-      "bytes": 9612,
+      "bytes": 13464,
       "ok": true
     },
     {
-      "path": "/assets/Cyrus-Alcala-Resume.docx",
+      "path": "/assets/Cyrus-Alcala-Resume-2026.pdf",
       "status": 200,
-      "type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
-      "bytes": 8967,
+      "type": "application/pdf",
+      "bytes": 73666,
       "ok": true
     },
     {
@@ -90,14 +90,14 @@
       "path": "/site.css",
       "status": 200,
       "type": "text/css; charset=utf-8",
-      "bytes": 22739,
+      "bytes": 26933,
       "ok": true
     },
     {
       "path": "/site.js",
       "status": 200,
       "type": "application/javascript",
-      "bytes": 914,
+      "bytes": 4059,
       "ok": true
     },
     {
@@ -111,14 +111,14 @@
       "path": "/sitemap.xml",
       "status": 200,
       "type": "application/xml",
-      "bytes": 616,
+      "bytes": 680,
       "ok": true
     },
     {
       "path": "/missing-page-check",
       "status": 404,
       "type": "text/html; charset=utf-8",
-      "bytes": 4112,
+      "bytes": 7766,
       "ok": true
     }
   ]
