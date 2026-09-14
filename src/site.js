@@ -11,6 +11,48 @@ if(menu){
  menu.querySelectorAll('a').forEach(link=>link.addEventListener('click',()=>menu.open=false));
 }
 
+// Smooth inquiry overlay dialog
+const dialog=document.getElementById('inquiry-dialog');
+if(dialog){
+ const closeBtn=dialog.querySelector('.inquiry-close-btn');
+ const backdrop=dialog.querySelector('.inquiry-backdrop');
+ const doneBtn=dialog.querySelector('.form-done-btn');
+ const firstInput=dialog.querySelector('#inquiry-name');
+
+ function openDialog(){
+  dialog.classList.add('is-active');
+  void dialog.offsetWidth;
+  dialog.classList.add('is-visible');
+  document.body.style.overflow='hidden';
+  setTimeout(()=>{if(firstInput)firstInput.focus()},120);
+ }
+
+ function closeDialog(){
+  dialog.classList.remove('is-visible');
+  document.body.style.overflow='';
+  setTimeout(()=>{dialog.classList.remove('is-active')},280);
+ }
+
+ document.querySelectorAll('.open-inquiry-btn, a[href="#contact"], a[href="#inquiry"]').forEach(el=>{
+  el.addEventListener('click',e=>{
+   e.preventDefault();
+   const m=document.querySelector('.mobile-nav');
+   if(m&&m.open)m.open=false;
+   openDialog();
+  });
+ });
+
+ if(closeBtn)closeBtn.addEventListener('click',closeDialog);
+ if(backdrop)backdrop.addEventListener('click',closeDialog);
+ if(doneBtn)doneBtn.addEventListener('click',closeDialog);
+
+ document.addEventListener('keydown',e=>{
+  if(e.key==='Escape'&&dialog.classList.contains('is-visible')){
+   closeDialog();
+  }
+ });
+}
+
 // Progressive enhancement for native contact form
 const form=document.querySelector('.inquiry-form');
 const successBox=document.getElementById('inquiry-success');
@@ -91,7 +133,6 @@ if(form&&successBox){
 
    form.hidden=true;
    successBox.hidden=false;
-   successBox.scrollIntoView({behavior:'smooth',block:'nearest'});
   }catch(err){
    // Fallback to hidden iframe submit if fetch fails
    form.submit();
