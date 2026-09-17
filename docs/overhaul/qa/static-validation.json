@@ -1,49 +1,49 @@
 {
-  "date": "2026-09-14T13:26:40.441Z",
+  "date": "2026-09-17T11:11:51.897Z",
   "pages": [
     {
       "path": "/",
-      "bytes": 13761
+      "bytes": 13829
     },
     {
       "path": "/work/",
-      "bytes": 12208
+      "bytes": 12338
     },
     {
       "path": "/services/",
-      "bytes": 13681
+      "bytes": 13749
     },
     {
       "path": "/about/",
-      "bytes": 10628
+      "bytes": 10789
     },
     {
       "path": "/hire/",
-      "bytes": 12592
+      "bytes": 12843
     },
     {
       "path": "/work/hvac-ad-crew/",
-      "bytes": 17682
+      "bytes": 17874
     },
     {
       "path": "/work/va-freelance-hub/",
-      "bytes": 12290
+      "bytes": 12482
     },
     {
       "path": "/work/techwriter-bot/",
-      "bytes": 12337
+      "bytes": 12529
     },
     {
       "path": "/work/cyrusalcala/",
-      "bytes": 11477
+      "bytes": 11607
     },
     {
       "path": "/work/video/",
-      "bytes": 14159
+      "bytes": 14258
     },
     {
       "path": "/404/",
-      "bytes": 8461
+      "bytes": 8529
     }
   ],
   "cssBytes": 29543,

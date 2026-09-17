@@ -1,6 +1,6 @@
 const fs=require('node:fs');
 const base=process.argv[2];if(!base)throw new Error('Provide deployment base URL');
-const paths=['/','/work/','/services/','/about/','/hire/','/work/va-freelance-hub/','/work/techwriter-bot/','/work/cyrusalcala/','/work/video/','/assets/Cyrus-Alcala-Resume-2026.pdf','/assets/Google-AI-Professional-Certificate.pdf','/assets/social-card.png','/site.css','/site.js','/robots.txt','/sitemap.xml','/missing-page-check'];
+const paths=['/','/work/','/services/','/about/','/hire/','/work/hvac-ad-crew/','/work/va-freelance-hub/','/work/techwriter-bot/','/work/cyrusalcala/','/work/video/','/assets/Cyrus-Alcala-Resume-2026.pdf','/assets/Google-AI-Professional-Certificate.pdf','/assets/social-card.png','/site.css','/site.js','/robots.txt','/sitemap.xml','/missing-page-check'];
 (async()=>{
  const results=[];
  for(let i=0;i<paths.length;i+=4){
