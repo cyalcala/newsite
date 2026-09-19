@@ -2,7 +2,7 @@
 module.exports = {
   url: '#contact',
   label: "Let's talk",
-  resumeUrl: 'https://drive.google.com/file/d/1Y7RP4AVqyv-6ItAXagDaQGE0AVhqw_on/view?usp=sharing',
+  resumeUrl: '/assets/Cyrus-Alcala-Resume-2026.pdf',
   action: 'https://docs.google.com/forms/d/e/1FAIpQLSenJuHOxItC77bmI8-NOXxlWSe9aqQRHDt6HlMerQXPgHKB8A/formResponse',
   fallbackUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSenJuHOxItC77bmI8-NOXxlWSe9aqQRHDt6HlMerQXPgHKB8A/viewform',
   entries: {

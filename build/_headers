@@ -9,4 +9,6 @@
 /assets/*
   Cache-Control: public, max-age=86400
 /assets/Cyrus-Alcala-Resume-2026.pdf
+  Content-Type: application/pdf
   Content-Disposition: inline; filename="Cyrus-Alcala-Resume-2026.pdf"
+  Cache-Control: public, max-age=3600
