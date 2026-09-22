@@ -2,3 +2,8 @@
 .thumbnail
 .wrangler/
 node_modules/
+.env
+.env.*
+!.env.example
+*jev777*
+jev777.txt

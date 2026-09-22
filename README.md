@@ -52,3 +52,17 @@ Design rules and verification limits are recorded in `docs/overhaul/design-syste
 ## Unified inquiries
 
 All outreach actions use the published Google Form configured in `src/contact.cjs`. Change that single URL/label, then rebuild to update every page. See `docs/unified-contact/README.md` for the form structure, owner workflow, backup and validation. Do not reintroduce separate mailto or calendar calls to action without an explicit change in the contact strategy.
+
+## Jev 1.13 judgment layer
+
+A structured decision layer using **Jev 1.13** (`typesafe/jev-1.13`) via OpenRouter, designed for Gemini to evaluate bounded UI choices, tokens, and redesign iterations.
+
+```sh
+# Run smoke tests
+npm run test:jev
+
+# CLI judgment
+npm run judge -- --task evaluate --component "Header" --state "Warm paper #f7f3ec, Bricolage display logo"
+```
+
+See [docs/jev-integration.md](docs/jev-integration.md) for full architecture, API reference, and operational boundaries.
