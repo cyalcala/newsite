@@ -1,16 +1,18 @@
 {
   "name": "cyrusalcala-com",
   "version": "1.0.0",
-  "description": "Cyrus Alcala portfolio website with Jev 1.13 judgment layer for Gemini",
+  "description": "Cyrus Alcala portfolio website with Jev 1.13 judgment layer for Codex and Gemini",
   "private": true,
   "scripts": {
     "build": "node scripts/build-site.cjs",
     "validate": "node scripts/validate-site.cjs",
     "judge": "node scripts/judge.cjs",
-    "test:jev": "node scripts/test-jev.cjs"
+    "test:jev": "node scripts/test-jev.cjs",
+    "test:jev:offline": "node --test scripts/test-jev-offline.cjs",
+    "install:jev:codex": "node scripts/install-jev-codex.cjs"
   },
   "dependencies": {
-    "@typesafe-ai/sdk": "^0.6.0"
+    "@typesafe-ai/sdk": "0.6.0"
   },
   "engines": {
     "node": ">=20"

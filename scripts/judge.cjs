@@ -14,7 +14,7 @@ const {
 
 function printHelp() {
   console.log(`
-Jev 1.13 Judgment CLI for Gemini / Antigravity
+Jev 1.13 Judgment CLI for Codex and Gemini / Antigravity
 
 USAGE:
   node scripts/judge.cjs [options]
@@ -158,9 +158,9 @@ async function run() {
     const errorResult = {
       ok: false,
       decision: DECISIONS.ESCALATE_TO_GEMINI,
-      error: err.message,
+      error: 'Invalid input or unexpected CLI failure',
       fallback: true,
-      recommendation: 'CLI encountered an unexpected exception; Gemini should proceed directly.'
+      recommendation: 'CLI encountered an exception; the calling agent should proceed directly.'
     };
     console.log(JSON.stringify(errorResult, null, 2));
     process.exit(0);

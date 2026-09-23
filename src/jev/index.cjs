@@ -71,16 +71,24 @@ async function judge({
     timeoutMs
   });
 
-  if (!result.ok || !result.answers || !result.answers.decision) {
+  const candidate = result.answers?.decision;
+  const validAnswer = candidate && Object.hasOwn(criteriaMap, candidate.choice)
+    && Number.isFinite(candidate.confidence) && candidate.confidence >= 0 && candidate.confidence <= 1
+    && candidate.probabilities && typeof candidate.probabilities === 'object'
+    && Object.keys(criteriaMap).every(key => Number.isFinite(candidate.probabilities[key])
+      && candidate.probabilities[key] >= 0 && candidate.probabilities[key] <= 1)
+    && Object.keys(candidate.probabilities).every(key => Object.hasOwn(criteriaMap, key))
+    && Math.abs(Object.values(candidate.probabilities).reduce((sum, p) => sum + p, 0) - 1) < 0.02;
+  if (!result.ok || !validAnswer) {
     return {
       ok: false,
       decision: DECISIONS.ESCALATE_TO_GEMINI,
       confidence: 0,
       probabilities: {},
-      error: result.error || 'Unknown Jev error',
+      error: result.error || 'Invalid Jev decision response',
       status: result.status,
       fallback: true,
-      recommendation: 'Jev is currently unavailable. Gemini should continue by making the decision directly.'
+      recommendation: 'Jev is unavailable. The calling agent (Codex or Gemini) should continue by making the decision directly.'
     };
   }
 

@@ -1,7 +1,7 @@
 // Single public configuration for website inquiry and Google Forms integration.
 module.exports = {
   url: '#contact',
-  label: "Let's talk",
+  label: "Start a project",
   resumeUrl: '/assets/Cyrus-Alcala-Resume-2026.pdf',
   action: 'https://docs.google.com/forms/d/e/1FAIpQLSenJuHOxItC77bmI8-NOXxlWSe9aqQRHDt6HlMerQXPgHKB8A/formResponse',
   fallbackUrl: 'https://docs.google.com/forms/d/e/1FAIpQLSenJuHOxItC77bmI8-NOXxlWSe9aqQRHDt6HlMerQXPgHKB8A/viewform',

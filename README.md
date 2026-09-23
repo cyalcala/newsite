@@ -55,10 +55,16 @@ All outreach actions use the published Google Form configured in `src/contact.cj
 
 ## Jev 1.13 judgment layer
 
-A structured decision layer using **Jev 1.13** (`typesafe/jev-1.13`) via OpenRouter, designed for Gemini to evaluate bounded UI choices, tokens, and redesign iterations.
+A structured decision layer using **Jev 1.13** (`typesafe/jev-1.13`) via OpenRouter, available to Codex and Gemini to evaluate bounded UI choices, tokens, and redesign iterations.
 
 ```sh
-# Run smoke tests
+# Install/refresh the Codex skill across local projects
+npm run install:jev:codex
+
+# Offline tests (no API calls)
+npm run test:jev:offline
+
+# Run live smoke tests
 npm run test:jev
 
 # CLI judgment

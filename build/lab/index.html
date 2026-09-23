@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>The Lab · Experimental Playground — Cyrus Alcala</title>
+  <meta name="description" content="Interactive canvas, ambient sound experiments, and motion studies by Cyrus Alcala.">
+  <link rel="canonical" href="https://cyrusalcala.com/lab/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="The Lab · Experimental Playground — Cyrus Alcala">
+  <meta property="og:description" content="Interactive canvas, ambient sound experiments, and motion studies by Cyrus Alcala.">
+  <meta property="og:url" content="https://cyrusalcala.com/lab/">
+  <meta property="og:image" content="https://cyrusalcala.com/assets/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="theme-color" content="#ece7de">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/site.css?v=20260923">
+  <script src="/site.js?v=20260923" defer></script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Cyrus Alcala","url":"https://cyrusalcala.com","image":"https://cyrusalcala.com/assets/headshot-dark.webp","sameAs":["https://github.com/cyalcala","https://www.linkedin.com/in/cyrusalcala/"],"knowsAbout":["Web design","Technical writing","Knowledge management","AI automation"]}</script>
+</head>
+<body>
+  
+      <a class="skip" href="#main">Skip to content</a>
+      
+<main id="main">
+<div class="canvas" id="canvas" aria-label="Cyrus Alcala portfolio canvas">
+  <!-- Top Navigation Header: Mode Switcher & Lab Controls -->
+  <header class="top-header-wrap">
+    <nav class="switcher top-nav" aria-label="Portfolio sections">
+      <button class="active" id="realButton" type="button">Real work</button>
+      <span class="nav-separator" aria-hidden="true">|</span>
+      <button id="funButton" type="button">Playground</button>
+    </nav>
+
+    <div class="top-right-bar" aria-label="Lab and controls">
+      <button class="layout-eyes-btn" id="layoutEyes" type="button" aria-label="Shuffle playground layout" title="Shuffle layout">
+        <svg viewBox="0 0 58 28" width="48" height="24" fill="none" aria-hidden="true">
+          <circle cx="14" cy="14" r="12" stroke="#0c30ff" stroke-width="2.5" fill="#fff"/>
+          <circle cx="44" cy="14" r="12" stroke="#0c30ff" stroke-width="2.5" fill="#fff"/>
+          <g id="pupilLeft"><circle cx="14" cy="14" r="5" fill="#0c30ff"/></g>
+          <g id="pupilRight"><circle cx="44" cy="14" r="5" fill="#0c30ff"/></g>
+        </svg>
+      </button>
+      <a href="/" class="lab-pill-btn" aria-label="Commercial Website">
+        <span>← Commercial Site</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- Real Work Field (Collage of Featured Commercial Projects) -->
+  <section class="real-field" id="projectField" aria-label="Selected commercial projects">
+    <!-- 01: HVAC Ad Crew -->
+    <article class="project-card card-hvac" data-project="hvac" tabindex="0" role="button" aria-label="Explore HVAC Ad Crew commercial system">
+      <span class="card-label">01 / Commercial Engine</span>
+      <img src="/assets/projects/hvac-ad-crew.webp" alt="HVAC Ad Crew landing page with screening room aesthetics" width="1280" height="720" fetchpriority="high">
+    </article>
+
+    <!-- 02: VA Freelance Hub -->
+    <article class="project-card card-va" data-project="va" tabindex="0" role="button" aria-label="Explore VA Freelance Hub product">
+      <span class="card-label">02 / Product &amp; Automation</span>
+      <img src="/assets/projects/va-hub.webp" alt="VA Freelance Hub interface showcasing remote job listings" width="1280" height="720">
+    </article>
+
+    <!-- 03: Techwriter Bot -->
+    <article class="project-card card-tw" data-project="tw" tabindex="0" role="button" aria-label="Explore Techwriter Bot documentation tool">
+      <span class="card-label">03 / AI &amp; Documentation</span>
+      <img src="/assets/projects/techwriter.webp" alt="Techwriter Bot AI workspace interface" width="1280" height="720">
+    </article>
+
+    <!-- 00: Project Zero Art Card -->
+    <article class="project-card card-art art-card" data-project="art" tabindex="0" role="button" aria-label="Explore Project Zero design system">
+      <div>
+        <div class="card-label" style="position:static;display:inline-flex;margin-bottom:14px">00 / System</div>
+        <div class="art-headline">A clear offer.<br>A clear next step.</div>
+        <div class="art-sub">Help the right people find their way.</div>
+        <div class="art-swatches" aria-hidden="true">
+          <span style="background:#ece7de"></span>
+          <span style="background:#cfc7bc"></span>
+          <span style="background:#0c30ff"></span>
+        </div>
+      </div>
+      <div class="art-bottom">
+        <span>CYRUS BENEDICT ALCALA</span>
+        <span>2026</span>
+      </div>
+    </article>
+  </section>
+
+  <!-- Playground Field (Freely Arranged Sandbox Experiments) -->
+  <section class="fun-field" id="funField" aria-label="Creative playground and prototypes">
+    <!-- Ambient Sound Player -->
+    <aside class="now-playing" aria-label="Now playing ambient audio">
+      <div class="track-disc" id="trackDisc">
+        <img src="/assets/headshot-dark.webp" alt="Ambient track vinyl art">
+      </div>
+      <div class="track-info">
+        <span class="track-label">Now Playing</span>
+        <span class="track-title" id="trackTitle">Midnight Manila — Lo-Fi Session</span>
+      </div>
+      <div class="track-controls">
+        <button class="track-play-btn" id="trackPlay" type="button" aria-label="Play or pause audio">▶</button>
+        <button class="track-play-btn" id="trackNext" type="button" aria-label="Next thought or track" style="background:#444">↻</button>
+      </div>
+      <div class="track-bars" id="trackBars" aria-hidden="true">
+        <i></i><i></i><i></i><i></i>
+      </div>
+    </aside>
+
+    <!-- Prototype Video 1 -->
+    <figure class="fun-item fun-video-1">
+      <video autoplay loop muted playsinline poster="/use-04.webp" aria-label="AI creative study concept">
+        <source src="/use-04.mp4" type="video/mp4">
+      </video>
+    </figure>
+
+    <!-- Prototype Video 2 -->
+    <figure class="fun-item fun-video-2">
+      <video autoplay loop muted playsinline poster="/use-01.webp" aria-label="Product demo concept">
+        <source src="/use-01.mp4" type="video/mp4">
+      </video>
+    </figure>
+
+    <!-- Prototype Video 3 -->
+    <figure class="fun-item fun-video-3">
+      <video autoplay loop muted playsinline poster="/use-09.webp" aria-label="Animated story concept">
+        <source src="/use-09.mp4" type="video/mp4">
+      </video>
+    </figure>
+
+    <!-- Sticker 1 -->
+    <div class="fun-item fun-sticker-1">
+      MANILA TO THE WORLD
+    </div>
+
+    <!-- Sticker 2 -->
+    <div class="fun-item fun-sticker-2">
+      <strong>BUILT, NOT PROMPTED</strong>
+      Practical AI systems backed by real documentation and code.
+    </div>
+  </section>
+
+  <!-- Cinematic About Takeover (.about-field) -->
+  <section class="about-field" id="aboutField" aria-label="About Cyrus Alcala" aria-hidden="true">
+    <div class="about-story">
+      <p class="about-story-paragraph">
+        <span>I was born and raised in Manila, building at the intersection</span>
+        <span>of web design, technical communication, and practical AI.</span>
+      </p>
+
+      <p class="about-story-paragraph">
+        <span>Before writing software or designing interfaces, I spent over a decade</span>
+        <span>in customer operations and documentation—discovering how real people</span>
+        <span>actually navigate complex tools and make buying decisions.</span>
+      </p>
+
+      <p class="about-story-paragraph">
+        <span>My practice connects both worlds: editorial clarity for the reader,</span>
+        <span>tactile delight for the user, and robust architecture for the owner.</span>
+      </p>
+
+      <p class="about-story-paragraph">
+        <span>Whether it’s a high-converting commercial landing page, an AI-assisted</span>
+        <span>writing workspace, or an automated pipeline, I build end-to-end.</span>
+      </p>
+
+      <div class="about-story-closing">
+        <p class="about-story-paragraph" style="margin:0;font-weight:700">
+          ALWAYS CURIOUS. ALWAYS BUILDING.
+        </p>
+        <svg class="hand-underline" viewBox="0 0 220 12" fill="none" aria-hidden="true">
+          <path d="M2 7C45 2 175 2 218 8C160 11 60 11 12 9" stroke="#0c30ff" stroke-width="2.5" stroke-linecap="round"/>
+        </svg>
+      </div>
+
+      <button class="about-back-btn" id="aboutBackBtn" type="button">
+        ← Return to canvas
+      </button>
+    </div>
+  </section>
+
+  <!-- Bottom Dock (.bio) -->
+  <footer class="bio" id="bio" aria-label="Bio and information drawer">
+    <div class="bio-copy">
+      <!-- Blue scalloped shape in playground mode -->
+      <svg class="fun-bottom-shape" viewBox="0 0 420 46" preserveAspectRatio="none" aria-hidden="true">
+        <path d="M0 23C10 8 20 8 30 23C40 38 50 38 60 23C70 8 80 8 90 23C100 38 110 38 120 23C130 8 140 8 150 23C160 38 170 38 180 23C190 8 200 8 210 23C220 38 230 38 240 23C250 8 260 8 270 23C280 38 290 38 300 23C310 8 320 8 330 23C340 38 350 38 360 23C370 8 380 8 390 23C400 38 410 38 420 23V46H0Z" fill="#0c30ff"/>
+      </svg>
+      <p>
+        <span class="bio-text-real">Cyrus Alcala is a designer, developer &amp; AI systems builder in Manila</span>
+        <span class="bio-text-fun">When I'm not shipping client systems, I'm building weird and useful experiments</span>
+      </p>
+    </div>
+    <button class="portrait" id="portrait" type="button" aria-label="Open profile context and contact">
+      <img src="/assets/headshot-dark.webp" alt="Cyrus Alcala">
+    </button>
+  </footer>
+
+  <!-- Profile Popover (.profile-popover) -->
+  <div class="profile-popover" id="profilePopover" aria-hidden="true">
+    <div class="profile-tabs" role="tablist">
+      <button class="active" id="careerButton" type="button" role="tab">Context</button>
+      <button id="contactButton" type="button" role="tab">Let's talk</button>
+    </div>
+
+    <!-- Panel 1: Context -->
+    <section class="profile-panel career-panel active" id="careerPanel" role="tabpanel">
+      <p class="panel-heading">Where I've been</p>
+      <div class="career-list">
+        <div class="career-item">
+          <div class="career-item-main">
+            <span class="career-item-title">WNS Global Services</span>
+            <span class="career-item-role">Claims Manager · Natural Hazards</span>
+            <span class="career-item-location">Manila, Philippines</span>
+          </div>
+          <time>Now</time>
+        </div>
+        <div class="career-item">
+          <div class="career-item-main">
+            <span class="career-item-title">Infosys BPM</span>
+            <span class="career-item-role">Senior Process Executive</span>
+            <span class="career-item-location">Manila, Philippines</span>
+          </div>
+          <time>2025</time>
+        </div>
+        <div class="career-item">
+          <div class="career-item-main">
+            <span class="career-item-title">Insight Direct</span>
+            <span class="career-item-role">Knowledge Technical Writer</span>
+            <span class="career-item-location">Manila, Philippines</span>
+          </div>
+          <time>2023</time>
+        </div>
+      </div>
+
+      <p class="panel-heading" style="margin-top:18px">Credentials</p>
+      <div class="career-list">
+        <div class="career-item">
+          <div class="career-item-main">
+            <span class="career-item-title">Google AI Professional Certificate</span>
+            <span class="career-item-role">Coursera Specialization</span>
+          </div>
+          <time>2026</time>
+        </div>
+        <div class="career-item">
+          <div class="career-item-main">
+            <span class="career-item-title">EF SET C2 English Proficiency</span>
+            <span class="career-item-role">Score 75/100 · Native/Bilingual</span>
+          </div>
+          <time>2026</time>
+        </div>
+      </div>
+
+      <button class="about-link-btn" id="aboutButton" type="button">
+        <span>More about my journey</span>
+        <span aria-hidden="true">↗</span>
+      </button>
+    </section>
+
+    <!-- Panel 2: Let's Talk -->
+    <section class="profile-panel contact-panel" id="contactPanel" role="tabpanel">
+      <div class="talk-box">
+        <p class="talk-prompt">Have a website, video, or AI system in mind?</p>
+        <div class="talk-actions">
+          <button type="button" class="talk-inquiry-btn open-inquiry-btn">
+            <span>Start inquiry</span>
+            <span aria-hidden="true">↗</span>
+          </button>
+          <a class="talk-email-link" href="mailto:cyrusalcala@gmail.com">
+            <span>cyrusalcala@gmail.com</span>
+          </a>
+        </div>
+        <div class="talk-social-links">
+          <a href="https://www.linkedin.com/in/cyrusalcala/" target="_blank" rel="noopener">LinkedIn ↗</a>
+          <a href="https://github.com/cyalcala" target="_blank" rel="noopener">GitHub ↗</a>
+          <a href="/assets/Cyrus-Alcala-Resume-2026.pdf" target="_blank" rel="noopener">Résumé ↗</a>
+          <a href="/services/">Services ↗</a>
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <!-- Project Detail Slide Overlay (.project-view) -->
+  <section class="project-view" id="projectView" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="infoTitle">
+    <button class="view-backdrop" id="viewBackdrop" type="button" aria-label="Close project view"></button>
+    <div class="project-scroll" id="projectScroll"></div>
+    <aside class="project-info">
+      <button class="close" id="closeProject" type="button" aria-label="Close project">×</button>
+      <h1 id="infoTitle">Project Title</h1>
+      <p class="year">Year <strong id="infoYear">2026</strong></p>
+      <div class="rule"></div>
+      <p class="desc" id="infoDesc"></p>
+      <div class="actions">
+        <a class="btn-action" id="infoLiveLink" href="#" target="_blank" rel="noopener">
+          <span>Try Live Project</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <a class="btn-sub" id="infoRepoLink" href="#" target="_blank" rel="noopener">
+          <span>Explore GitHub Repo</span>
+          <span aria-hidden="true">↗</span>
+        </a>
+        <a class="btn-sub" id="infoCaseLink" href="#">
+          <span>Read Full Case Study</span>
+          <span aria-hidden="true">→</span>
+        </a>
+      </div>
+    </aside>
+    <div class="scroll-hint" aria-hidden="true"><i id="scrollThumb"></i></div>
+  </section>
+  </div>
+</main>
+
+      
+<div id="inquiry-dialog" class="inquiry-dialog" role="dialog" aria-modal="true" aria-labelledby="inquiry-modal-title">
+  <div class="inquiry-backdrop"></div>
+  <div class="inquiry-sheet" role="document">
+    <div class="inquiry-drag-handle" aria-hidden="true"></div>
+    <div class="inquiry-header">
+      <div class="inquiry-header-text">
+        <span class="eyebrow">START A PROJECT</span>
+        <h2 id="inquiry-modal-title">Tell me what you need.</h2>
+      </div>
+      <button type="button" class="inquiry-close-btn" aria-label="Close inquiry dialog">✕</button>
+    </div>
+    <div class="inquiry-body">
+      <p class="inquiry-intro">Have a website or digital project in mind? Share a few details and I’ll reply directly with clear scope, ideas, and next steps.</p>
+      <form class="inquiry-form" action="https://docs.google.com/forms/d/e/1FAIpQLSenJuHOxItC77bmI8-NOXxlWSe9aqQRHDt6HlMerQXPgHKB8A/formResponse" method="POST" target="hidden_form_iframe" novalidate>
+        <div class="field-honeypot" aria-hidden="true" style="display:none">
+          <label for="inquiry-hp">Website</label>
+          <input type="text" id="inquiry-hp" name="inquiry_hp" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="form-row duo">
+          <div class="form-field">
+            <label for="inquiry-name">Your Name <span class="required" aria-hidden="true">*</span></label>
+            <input type="text" id="inquiry-name" name="entry.25383299" required autocomplete="name" placeholder="Name or company">
+            <span class="field-error" id="err-name" aria-live="polite"></span>
+          </div>
+          <div class="form-field">
+            <label for="inquiry-email">Email Address <span class="required" aria-hidden="true">*</span></label>
+            <input type="email" id="inquiry-email" name="entry.668403667" required autocomplete="email" placeholder="name@domain.com">
+            <span class="field-error" id="err-email" aria-live="polite"></span>
+          </div>
+        </div>
+        <div class="form-field">
+          <label>What can I help with? <span class="required" aria-hidden="true">*</span></label>
+          <div class="choice-chips" role="radiogroup" aria-label="What are you reaching out about?">
+            <label class="chip"><input type="radio" name="entry.1640468941" value="Websites" checked><span>Websites</span></label><label class="chip"><input type="radio" name="entry.1640468941" value="AI video"><span>AI video</span></label><label class="chip"><input type="radio" name="entry.1640468941" value="Social media"><span>Social media</span></label><label class="chip"><input type="radio" name="entry.1640468941" value="AI systems and automation"><span>AI systems and automation</span></label><label class="chip"><input type="radio" name="entry.1640468941" value="Hiring opportunity"><span>Hiring opportunity</span></label><label class="chip"><input type="radio" name="entry.1640468941" value="Something else"><span>Something else</span></label>
+          </div>
+        </div>
+        <div class="form-field">
+          <label for="inquiry-details">Tell me about the project <span class="required" aria-hidden="true">*</span></label>
+          <textarea id="inquiry-details" name="entry.923088650" rows="3" required placeholder="A few sentences about your business, what you'd like to build, or what needs improvement."></textarea>
+          <span class="field-error" id="err-details" aria-live="polite"></span>
+        </div>
+        <div class="form-field">
+          <label>Preferred reply channel</label>
+          <div class="choice-chips" role="radiogroup" aria-label="Preferred reply channel">
+            <label class="chip"><input type="radio" name="entry.377038454" value="Email" checked><span>Email</span></label><label class="chip"><input type="radio" name="entry.377038454" value="Messenger"><span>Messenger</span></label>
+          </div>
+        </div>
+        <div class="form-submit-row">
+          <button type="submit" class="form-button">
+            <span>Send inquiry</span>
+            <span aria-hidden="true">→</span>
+          </button>
+          <p class="form-note">Direct personal reply. No marketing spam.</p>
+        </div>
+        <p class="form-fallback-note">Prefer the external form? <a href="https://docs.google.com/forms/d/e/1FAIpQLSenJuHOxItC77bmI8-NOXxlWSe9aqQRHDt6HlMerQXPgHKB8A/viewform" target="_blank" rel="noopener">Open Google Forms directly ↗</a></p>
+      </form>
+      <iframe name="hidden_form_iframe" id="hidden_form_iframe" style="display:none" tabindex="-1" aria-hidden="true"></iframe>
+      <div class="inquiry-success" id="inquiry-success" hidden aria-live="polite">
+        <div class="success-box">
+          <span class="eyebrow" style="color:var(--accent)">01 / INQUIRY SENT</span>
+          <h3>Thanks — I have what I need to take a look.</h3>
+          <p>I’ll review what you shared and reply using the contact details you provided.</p>
+          <div class="actions">
+            <button type="button" class="form-button form-done-btn">Done</button>
+            <button type="button" class="form-button form-reset-btn" style="background:transparent;border:1px solid #443e35;color:#fff">Send another inquiry ↺</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+</body>
+</html>

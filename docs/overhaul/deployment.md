@@ -17,3 +17,24 @@ Reviewed preview: https://e543b26d.cyrusalcala.pages.dev (branch codex-design-lo
 - Cloudflare modifies custom-domain responses (including its managed robots response and email protection), so HTML/robots byte counts differ from the direct Pages preview. The shared CSS matches the final build at22739 bytes.
 
 The subsequent documentation commit adds this deployment record and production evidence; it does not change the deployed site artifact. The original backup tag remains remotely available.
+
+## Production deployment — 2026-09-23 (Buyer-First, Design-Led Redesign)
+
+- **Objective**: Full strategic overhaul from direct-response/CRO consultant posture into a design-led, high-craft website studio storefront guided by Jev 1.13.
+- **Key Enhancements**:
+  - Editorial split hero featuring live build preview of HVAC Ad Crew.
+  - Selected work catalogue featuring HVAC Ad Crew, VA Freelance Hub, Techwriter Bot, and Video Formats.
+  - Recognizable reality grid addressing customer pain points without aggressive fear-mongering.
+  - Transparent 2-card offer presenting the ₱5,000 Starter Website alongside custom multi-page architecture.
+  - 4-step clear process (Understand, Design & Build, Review & Refine, Launch & Handover).
+  - Growth capabilities roadmap (Content, Video, Automation).
+  - Builder profile for Cyrus Alcala with Google AI Professional Certificate and enterprise credentials.
+  - Keyboard-accessible interactive FAQ accordion.
+  - Streamlined primary navigation (Work, Services, About, Experience) with mobile menu dropdown resolving all small-screen collisions.
+  - The Lab experimental canvas preserved at `/lab/`.
+  - Built-in Jev 1.13 structured judgment layer via OpenRouter with 8/8 offline tests passing.
+- **QA & Static Validation**:
+  - 12 static pages built cleanly.
+  - 0 broken links, 0 orphaned pages, 0 schema validation errors.
+  - Verified across desktop (1360px) and mobile (390px) viewports with Chrome DevTools.
+

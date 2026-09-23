@@ -33,3 +33,9 @@ Whenever you need to make bounded design judgments, invoke `scripts/judge.cjs`:
 - **Gemini**: Implements all code, HTML, CSS, JavaScript, responsive styles, bug fixes, and copywriting.
 - **Jev**: Provides fast, typed evaluations and probability distributions to help Gemini decide whether to accept, revise, simplify, or choose between options.
 - **Non-blocking**: If Jev is offline or fails, it returns `ESCALATE_TO_GEMINI`. Do not let Jev downtime block website development.
+
+## Autonomous Execution & Maximum Agency
+
+- **Default to Autonomous Execution**: Take initiative and proceed end-to-end to fulfill the user's objective without stopping to ask "what should I do next?" or requesting confirmation for routine actions, edits, builds, tests, or file operations.
+- **Make Calibrated Judgments**: When encountering design decisions, implementation choices, or trade-offs, evaluate and decide directly (using Jev or established engineering principles) rather than pausing to query the user.
+- **Act First, Report Outcomes**: Carry out all necessary file inspections, edits, command runs, builds, and validations proactively, and report concise results upon completion.
