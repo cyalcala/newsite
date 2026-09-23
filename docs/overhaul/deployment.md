@@ -37,4 +37,10 @@ The subsequent documentation commit adds this deployment record and production e
   - 12 static pages built cleanly.
   - 0 broken links, 0 orphaned pages, 0 schema validation errors.
   - Verified across desktop (1360px) and mobile (390px) viewports with Chrome DevTools.
+- **Deployment Details**:
+  - Deployed build to Cloudflare Pages project `cyrusalcala` on branch `main`.
+  - Deployment URL: https://3708ad6c.cyrusalcala.pages.dev
+  - Production custom domain: https://cyrusalcala.com
+  - 18/18 production HTTP route/asset checks passed (see `docs/overhaul/qa/production-http.json`).
+  - Git backup tag created and pushed: `backup/editorial-redesign-2026-09-23`.
 
